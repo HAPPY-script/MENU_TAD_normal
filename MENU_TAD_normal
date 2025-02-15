@@ -9,9 +9,9 @@ local screenGui = Instance.new("ScreenGui", starterGui)
 screenGui.ResetOnSpawn = false
 
 -- Tông màu
-local backgroundColor = Color3.fromRGB(163, 162, 165) -- Tím đậm
-local buttonColor = Color3.fromRGB(138, 43, 226) -- Tím nhạt
-local textColor = Color3.fromRGB(255, 255, 255) -- Trắng
+local backgroundColor = Color3.fromRGB(160, 82, 45) -- Nâu đậm
+local buttonColor = Color3.fromRGB(255, 165, 0) -- Cam sáng
+local textColor = Color3.fromRGB(255, 248, 220) -- Kem nhạt
 
 -- Dữ liệu nút
 local buttonsData = {
@@ -31,7 +31,7 @@ local buttonsData = {
     {Name = "auto_click", Script = function() loadstring(game:HttpGet("https://raw.githubusercontent.com/HAPPY-script/TICKEN_AUTO_CLICK/refs/heads/main/TICKEN_AUTO_CLICK"))() end},
     {Name = "fling", Script = function() loadstring(game:HttpGet("https://raw.githubusercontent.com/HAPPY-script/TICKEN_FLING/refs/heads/main/TICKEN_FLING"))() end},
     --{Name = "raid", Script = function() loadstring(game:HttpGet("https://raw.githubusercontent.com/HAPPY-script/TICKEN_RAID/refs/heads/main/TICKEN_RAID"))() end},
-    {Name = "menu_tp", Script = function() loadstring(game:HttpGet("https://raw.githubusercontent.com/HAPPY-script/CHECK_SEA_MENU_TP/refs/heads/main/CHECK_SEA_MENU_TP"))() end},
+    --{Name = "menu_tp", Script = function() loadstring(game:HttpGet("https://raw.githubusercontent.com/HAPPY-script/CHECK_SEA_MENU_TP/refs/heads/main/CHECK_SEA_MENU_TP"))() end},
     {Name = "speed", Script = function() loadstring(game:HttpGet("https://raw.githubusercontent.com/HAPPY-script/TICKEN_SPEED/refs/heads/main/TICKEN_SPEED"))() end},
     --{Name = "auto_chest", Script = function() loadstring(game:HttpGet("https://raw.githubusercontent.com/HAPPY-script/TICKEN_CHECK_SEA/refs/heads/main/TICKEN_CHECK_SEA_AUTO_CHEST"))() end},
     {Name = "toy", Script = function() loadstring(game:HttpGet("https://raw.githubusercontent.com/HAPPY-script/TICKEN_TOY/refs/heads/main/TICKEN_TOY"))() end},
@@ -123,6 +123,9 @@ local menuItem = Instance.new("Tool")
 menuItem.Name = "Menu"
 menuItem.Parent = backpack
 
+-- Thêm icon thay cho tên
+menuItem.TextureId = "rbxthumb://type=Asset&id=488453319&w=150&h=150"
+
 -- Tạo mô hình item Menu
 local menuModel = Instance.new("Part")
 menuModel.Size = Vector3.new(1, 1, 1)
@@ -159,10 +162,4 @@ end)
 
 menuItem.Unequipped:Connect(function()
     menuFrame.Visible = false
-end)
-
--- Khi chết hoặc reset, trả lại item Menu
-player.CharacterAdded:Connect(function()
-    wait(1) -- Đợi 1 giây để đảm bảo nhân vật được tạo
-    menuItem.Parent = backpack
 end)
