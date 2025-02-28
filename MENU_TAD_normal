@@ -23,7 +23,7 @@ local buttonsData = {
     {Name = "ifn_zoom", Script = function() loadstring(game:HttpGet("https://raw.githubusercontent.com/HAPPY-script/TICKEN_IFN_ZOOM/refs/heads/main/TICKEN_IFN_ZOOM"))() end},
     {Name = "ifn_jump", Script = function() loadstring(game:HttpGet("https://raw.githubusercontent.com/HAPPY-script/TICKEN_IFN_JUMP/refs/heads/main/TICKEN_IFN_JUMP"))() end},
     --{Name = "hunt", Script = function() loadstring(game:HttpGet("https://raw.githubusercontent.com/HAPPY-script/TICKEN_HUNT/refs/heads/main/TICKEN_HUNT"))() end},
-    {Name = "hit_box", Script = function() loadstring(game:HttpGet("https://raw.githubusercontent.com/HAPPY-script/SELECT_HIT_BOX_NPC/refs/heads/main/SELECT_HIT_BOX_PLAYER_NPC"))() end},
+    {Name = "hit_box", Script = function() loadstring(game:HttpGet("https://raw.githubusercontent.com/HAPPY-script/CHECK_SEVER_HIT_BOX/refs/heads/main/CHECK_SEVER_HIT_BOX"))() end},
     --{Name = "haki_v10", Script = function() loadstring(game:HttpGet("https://raw.githubusercontent.com/HAPPY-script/TICKEN_HAKI_V10/refs/heads/main/TICKEN_HAKI_V10"))() end},
     {Name = "aim_tp_g", Script = function() loadstring(game:HttpGet("https://raw.githubusercontent.com/HAPPY-script/TICKEN_AIM_TP_G/refs/heads/main/TICKEN_AIM_TP_G"))() end},
     {Name = "aim_bot", Script = function()  loadstring(game:HttpGet("https://raw.githubusercontent.com/HAPPY-script/TICKEN_AIM_BOT/refs/heads/main/TICKEN_AIM_BOT"))() end},
