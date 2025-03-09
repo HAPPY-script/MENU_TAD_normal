@@ -40,7 +40,8 @@ local buttonsData = {
     --{Name = "next_sea", Script = function() loadstring(game:HttpGet("https://raw.githubusercontent.com/HAPPY-script/TICKEN_NEXT_SEA/refs/heads/main/TICKEN_NEXT_SEA"))() end},
     --{Name = "select_melee", Script = function() loadstring(game:HttpGet("https://raw.githubusercontent.com/HAPPY-script/SELECT_MELEE/refs/heads/main/SELECT_MELEE"))() end},
     {Name = "file", Script = function() loadstring(game:HttpGet("https://raw.githubusercontent.com/HAPPY-script/FILE_GAME/refs/heads/main/FILE_GAME"))() end},
-    {Name = "exploid", Script = function() loadstring(game:HttpGet("https://raw.githubusercontent.com/HAPPY-script/TICKEN_EXPLOID/refs/heads/main/TICKEN_EXPLOID"))() end}
+    {Name = "exploid", Script = function() loadstring(game:HttpGet("https://raw.githubusercontent.com/HAPPY-script/TICKEN_EXPLOID/refs/heads/main/TICKEN_EXPLOID"))() end},
+    {Name = "skybox", Script = function() loadstring(game:HttpGet("https://raw.githubusercontent.com/HAPPY-script/SKYBOX/refs/heads/main/SKYBOX"))() end}
 }
 
 -- Kích thước và vị trí mặc định
