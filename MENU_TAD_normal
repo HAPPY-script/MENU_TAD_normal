@@ -42,7 +42,7 @@ local buttonsData = {
     {Name = "file", Script = function() loadstring(game:HttpGet("https://raw.githubusercontent.com/HAPPY-script/FILE_GAME/refs/heads/main/FILE_GAME"))() end},
     {Name = "exploid", Script = function() loadstring(game:HttpGet("https://raw.githubusercontent.com/HAPPY-script/TICKEN_EXPLOID/refs/heads/main/TICKEN_EXPLOID"))() end},
     {Name = "skybox", Script = function() loadstring(game:HttpGet("https://raw.githubusercontent.com/HAPPY-script/SKYBOX/refs/heads/main/SKYBOX"))() end},
-    {Name = "dead_rails", Script = function() loadstring(game:HttpGet("https://raw.githubusercontent.com/HAPPY-script/DEAD_RAILS/refs/heads/main/DEAD_RAILS"))() end}
+    {Name = "menu_game", Script = function() loadstring(game:HttpGet("https://raw.githubusercontent.com/HAPPY-script/menu_TAD_GAME/refs/heads/main/menu_TAD_GAME"))() end}
 }
 
 -- Kích thước và vị trí mặc định
