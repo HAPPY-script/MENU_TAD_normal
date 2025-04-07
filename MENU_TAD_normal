@@ -42,7 +42,8 @@ local buttonsData = {
     {Name = "file", Script = function() loadstring(game:HttpGet("https://raw.githubusercontent.com/HAPPY-script/FILE_GAME/refs/heads/main/FILE_GAME"))() end},
     {Name = "exploid", Script = function() loadstring(game:HttpGet("https://raw.githubusercontent.com/HAPPY-script/TICKEN_EXPLOID/refs/heads/main/TICKEN_EXPLOID"))() end},
     {Name = "skybox", Script = function() loadstring(game:HttpGet("https://raw.githubusercontent.com/HAPPY-script/SKYBOX/refs/heads/main/SKYBOX"))() end},
-    {Name = "menu_game", Script = function() loadstring(game:HttpGet("https://raw.githubusercontent.com/HAPPY-script/menu_TAD_GAME/refs/heads/main/menu_TAD_GAME"))() end}
+    {Name = "menu_game", Script = function() loadstring(game:HttpGet("https://raw.githubusercontent.com/HAPPY-script/menu_TAD_GAME/refs/heads/main/menu_TAD_GAME"))() end},
+    {Name = "ifn_yield", Script = function() loadstring(game:HttpGet("https://raw.githubusercontent.com/HAPPY-script/Ifninite_Yield/refs/heads/main/Ifninite_Yield"))() end}
 }
 
 -- Kích thước và vị trí mặc định
